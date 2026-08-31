@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Biobank Genomic Datasets & PLINK Binaries
+# ==========================================
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.vcf
+*.vcf.gz
+*.zst
+data/
+raw_data/
+
+# ==========================================
+# PLINK Logs, Execution Artifacts, & Outputs
+# ==========================================
+*.log
+*.prune.in
+*.prune.out
+pruned_snps*
+plink2*
+
+# ==========================================
+# Binary Executables & Archives
+# ==========================================
+plink2
+*.zip
+*.tar.gz
